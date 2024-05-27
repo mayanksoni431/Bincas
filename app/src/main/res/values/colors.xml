@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#377537</color>
+    <color name="colorPrimaryDark">#ccf2d0</color>
+    <color name="colorAccent">#552195</color>
+    <color name="regcolor">#ccdee6</color>
+    <color name="decfrasendbtn">#868ccd</color>
+</resources>

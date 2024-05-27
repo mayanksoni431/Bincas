@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/hasercivebtnid"
+            android:icon="@drawable/ic_image_service"
+            android:title="Service" />
+        <item
+            android:id="@+id/hatestdbtn"
+            android:icon="@drawable/ic_image_testdreive"
+            android:title="TestDrive" />
+        <item
+            android:id="@+id/haenquirybtn"
+            android:icon="@drawable/ic_image_enquiry"
+            android:title="Enquiry" />
+        <item
+            android:id="@+id/hafeedbackbtn"
+            android:icon="@drawable/ic_image_feedback"
+            android:title="Feedback" />
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/haupdatebtn"
+                android:icon="@drawable/ic_image_update"
+                android:title="Update" />
+            <item
+                android:id="@+id/hadeletebtn"
+                android:icon="@drawable/ic_image_delete"
+                android:title="Delete" />
+        </menu>
+    </item>
+
+</menu>

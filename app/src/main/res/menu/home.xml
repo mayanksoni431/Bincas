@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/hasvrpopid"
+        android:orderInCategory="100"
+        android:title="ServiceAppeals"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/hatestdrivepopid"
+        android:orderInCategory="101"
+        android:title="TestDriveAppeals"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/halogoutpopid"
+        android:orderInCategory="102"
+        android:title="LogOut"
+        app:showAsAction="never" />
+
+</menu>

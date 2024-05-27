@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/regcolor"
+    android:scrollbars="vertical"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="General Information"
+        android:textSize="20dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <EditText
+        android:id="@+id/ufnameid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name" />
+
+    <EditText
+        android:id="@+id/ufemailid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email-Id" />
+
+    <EditText
+        android:id="@+id/ufvtype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Vehicle" />
+
+    <EditText
+        android:id="@+id/ufvid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Vehicle No."
+        android:text="null" />
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Contact Details"
+        android:textSize="20dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+
+    <EditText
+        android:id="@+id/ufunoid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contact Number"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/ufstreetid"
+            android:layout_width="170dp"
+            android:text=""
+            android:layout_height="wrap_content"
+            android:hint="BuildingNo" />
+
+        <Space
+            android:layout_width="4dp"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:text=""
+            android:id="@+id/ufareaid"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:hint="Area" />
+
+
+    </LinearLayout>
+
+
+    <EditText
+        android:text=""
+        android:id="@+id/ufcityid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="City" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+
+    <Button
+        android:id="@+id/ufbid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_light"
+        android:gravity="center"
+        android:text="Update"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

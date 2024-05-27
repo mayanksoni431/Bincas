@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "830451217647",
+    "firebase_url": "https://bincas.firebaseio.com",
+    "project_id": "bincas",
+    "storage_bucket": "bincas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830451217647:android:3877f9b066d7bcc20e171a",
+        "android_client_info": {
+          "package_name": "com.example.hii.bincas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "830451217647-bcg6oovulase47p611k9b9qj05up54ls.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hii.bincas",
+            "certificate_hash": "6fb27f14fe40e159323f2913d62947a282e778d2"
+          }
+        },
+        {
+          "client_id": "830451217647-eedpf6ce7jk24ibr7bh49je6adrp5vm0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_FTQPZHCx7NFa3QmiPAorro75d-n3YXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "830451217647-eedpf6ce7jk24ibr7bh49je6adrp5vm0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
